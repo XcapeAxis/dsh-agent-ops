@@ -25,6 +25,22 @@
       "archived": 1,
       "subagent": 1
     },
+    "command": {
+      "workspace": "Template QA"
+    },
+    "resultRows": [
+      {
+        "idSuffix": "0c815f5b",
+        "title": "Untitled",
+        "turns": 0
+      },
+      {
+        "idSuffix": "c3c0f70f",
+        "title": "Verify template export",
+        "turns": 3
+      }
+    ],
+    "sampleIdSuffix": "c3c0f70f",
     "target": {
       "project": "Template QA",
       "title": "Verify template export",

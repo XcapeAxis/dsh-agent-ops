@@ -2,9 +2,9 @@
 
 Find the DeepSeek Harness conversation you want to resume. Agent Ops shows workspaces, resolves session titles and surfaces relevant conversations by recency, including sessions whose agent is closed.
 
-![Verified DSH run: Template QA contains the cold conversation Verify template export. The lookup hid one archived, one blank and one delegated session.](docs/now-evidence.png)
+![Two real DSH tool calls: now lists the Template QA sessions, then session_info confirms Verify template export is detached and its title comes from the projection.](docs/now-evidence.png)
 
-*Real tool output from DeepSeek Harness 0.2.2-rc.1. The workspaces and conversations are synthetic fixtures.*
+*Output excerpt from a real DSH 0.2.2-rc.1 SDK run. The sessions are synthetic and their IDs are shortened. The untitled entry has a first human prompt, so it still appears in the results.*
 
 ## Try it
 
