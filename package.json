@@ -1,0 +1,38 @@
+{
+  "name": "dsh-agent-ops",
+  "version": "0.1.0",
+  "description": "Find the right DeepSeek Harness workspace and session to resume.",
+  "license": "MIT",
+  "author": "WeiHeng Xue (XcapeAxis)",
+  "type": "module",
+  "main": "./src/host/index.js",
+  "exports": {
+    ".": "./src/host/index.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=22",
+    "dsh": "0.2.2-rc.1"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "session",
+    "workspace"
+  ],
+  "files": [
+    "src",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "docs/now-evidence.png"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test tests/read-only.test.mjs"
+  }
+}

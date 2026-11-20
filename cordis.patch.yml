@@ -1,0 +1,3 @@
+- insert:
+    - id: agent-ops
+      name: dsh-agent-ops

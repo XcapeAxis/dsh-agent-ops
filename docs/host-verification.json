@@ -1,0 +1,51 @@
+{
+  "version": "0.2.2-rc.1",
+  "node": "v24.14.0",
+  "platform": "win32",
+  "installed": {
+    "phase": "installed",
+    "tools": [
+      "now",
+      "session_info",
+      "session_list",
+      "workspace_list"
+    ],
+    "workspaces": [
+      {
+        "title": "Motion Study",
+        "sessions": 1
+      },
+      {
+        "title": "Template QA",
+        "sessions": 5
+      }
+    ],
+    "filtered": {
+      "blank": 1,
+      "archived": 1,
+      "subagent": 1
+    },
+    "target": {
+      "project": "Template QA",
+      "title": "Verify template export",
+      "source": "projection",
+      "turns": 3,
+      "attached": false
+    },
+    "visible": [
+      {
+        "title": "Untitled",
+        "turns": 0
+      },
+      {
+        "title": "Verify template export",
+        "turns": 3
+      }
+    ],
+    "hashedFilesUnchanged": 7
+  },
+  "removed": {
+    "phase": "uninstalled",
+    "readTools": []
+  }
+}
