@@ -1,14 +1,12 @@
 # DSH Session Finder
 
-项目名还记得，想接着做的那条对话却找不到了。
+**DSH Session Finder 用来按工作区找回以前的会话。** 对话关掉后，只要 DSH 还留着本地记录，就能查到它的标题和归属。
 
-Session Finder 给 DeepSeek Harness 加了四个只读工具。Agent 可以按工作区找近期会话，再核对标题和归属。会话已经没有 Agent 连接时，仍可以用 DSH 缓存的标题来确认。
-
-> 找一下 Template QA 里上次在验证导出的会话，告诉我它的标题和工作区。
+比如上次在 `Template QA` 里做过一次导出检查。这次查到的会话叫 **Verify template export**。
 
 ![DSH 实测：now 在 Template QA 找到 Verify template export，session_info 用同一会话 ID 核对标题和连接状态。](docs/now-evidence.png)
 
-图里 `now` 找到了 **Verify template export**。`session_info` 用同一个 ID 核对，确认标题来自本地投影缓存，当前没有 Agent 连接。这是隔离环境里用合成会话跑出的结果，图中 ID 只显示后缀。
+*DSH SDK 实测节录。会话为合成数据，图中 ID 只显示后缀。*
 
 ## 试用
 
